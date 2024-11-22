@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="styles.css">
+<title>TWAY FAST FOOD</title>
+<!--font awesome cdn link-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!--custom css file link -->
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<!-- header section ahead-->
+<header>
+<i class="fas fa-utensils"><a href="#" class="logo"></a></i>TWAY FAST FOOD</a>	
+<nav class="navbar">
+	<a class="active" href="#home">home</a>
+	<a href="#dishes">dishes</a> 
+	<a href="#about">about</a>
+	<a href="#menu">menu</a>
+	<a href="#review">review</a>
+	<a href="#order">order</a>
+</nav>
+
+<div class="icons">
+	<i class="fas fa-bars" id="menu-bars"></i>
+	<i class="fas fa-search" id="search-icon"></i>
+	<a href="#" class="fas fa-heart"></a>
+	<a href="#" class="fas fa-shopping-cart"></a>
+
+
+
+
+</div>
+
+
+</header>
+<!-- home section-->
+<section class="home" id="home">
+	<div class="swiper-container home-slider ">
+		<div class="wrapper">
+			<div class="slide">
+				<div class="content">
+		<span>Our special dish</span>
+		<h3>Chicken fries</h3>
+		<p>Introducing our newest menu item: Chicken Fries! These crispy and delicious chicken strips are shaped like fries, making them perfect for dipping in your favorite sauces. Made with all-white meat chicken and coated in a savory blend of spices, these chicken fries are a new twist on a classic fast food item.</p>
+		<a href="#" class="btn">Order now...</a>
+		</div>
+		<div class="image">
+			<img src="file:///C:/Users/HP/Downloads/Premium%20Photo%20_%20Fried%20chicken%20with%20french%20fries%20and%20nuggets%20meal-PhotoRoom.png-PhotoRoom.png" alt="">
+		</div>
+		<div class="slide">
+			<div class="content">
+	<span>Our special dish</span>
+	<h3>Tasty burger with french fries</h3>
+	<p>Get ready for the ultimate burger experience with our juicy and delicious Tasty Burger with French Fries! Made with only the highest quality ingredients, this burger is sure to satisfy your cravings.
+
+		Our Tasty Burger starts with a juicy all-beef patty that's seasoned to perfection. We then top it with melted cheddar cheese, crispy bacon, fresh lettuce, ripe tomato, and tangy pickles, all served on a soft and buttery brioche bun. The result is a burger that's bursting with flavor in every bite.</p>
+	<a href="#" class="btn">Order now...</a>
+	</div>
+	<div class="image">
+		<img src="file:///C:/Users/HP/Downloads/Tasty%20burger%20with%20french%20fries-PhotoRoom.png-PhotoRoom.png" alt="">
+	</div>
+		</div>
+		<div class="slide">
+			<div class="content">
+	<span>Our special dish</span>
+	<h3>Dhaba Style Matar Paneer</h3>
+	<p>Transport yourself to the colorful and vibrant streets of India with our delicious Dhaba Style Matar Paneer! This classic North Indian dish is made with fresh green peas and creamy paneer cheese, cooked in a rich and flavorful tomato-based gravy.</p>
+	<a href="#" class="btn">Order now...</a>
+	</div>
+</div>
+</div>
+	<div class="image">
+		<img src="file:///C:/Users/HP/Downloads/Dhaba%20Style%20Matar%20Paneer%20Recipe-PhotoRoom.png-PhotoRoom.png" alt="">
+	</div>
+		
+	</div>
+</div>
+
+</section>
+<!-- home section ends-->
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<!-- custom js file link -->
+	<script src="js/script.js"></script>
+</body>
+</html>
